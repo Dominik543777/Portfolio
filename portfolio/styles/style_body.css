@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+ min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: tanker;
+}
+
+footer{
+    position: fixed;
+   text-align: center;
+    right: 45%;
+    bottom:0 ;
+    text-align: center;
+}
+
+.contend{
+flex: 1;
+background-color: aqua;
+font-family: tanker;
+
+}
+
+.nevim{
+font-family: tanker ;
+
+}
+
+ @font-face {
+    font-family: tanker ;
+    src: url("../assets/fonts/Tanker-Regular.woff2");
+ }
